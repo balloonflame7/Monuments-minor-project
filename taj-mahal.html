@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Mahal: A Detailed Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: url('https://media.istockphoto.com/id/1131877134/photo/travel-illustration-worlds-famous-landmarks-and-tourist-destinations-elements-in-colorful.jpg?s=612x612&w=0&k=20&c=5re_53AkB99-KSBR9a-8g2BvyHHRx_LAY04LHpMzQ10=') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav ul li span {
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li span:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 80px 20px 20px; 
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #45a049;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .three-d-view {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        model-viewer {
+            width: 100%;
+            height: 500px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taj Mahal: A Detailed Overview</h1>
+        <p>The symbol of eternal love and architectural excellence.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Historical Background</h2>
+            <p>Commissioned by Emperor Shah Jahan (ruled 1628–1658) in memory of his wife Mumtaz Mahal, who died in 1631 while giving birth to their 14th child. The construction period lasted from 1632 to 1653, taking around 21 years. The chief architect was Ustad Ahmad Lahauri, and over 20,000 artisans contributed to the project, using white marble from Makrana and precious stones from various regions.</p>
+        </section>
+        <section>
+            <h2>Architectural Features</h2>
+            <p>The Taj Mahal is a masterpiece of Mughal architecture, combining elements of Persian, Islamic, and Indian styles.</p>
+            <ul>
+                <li><strong>Main Mausoleum:</strong> Built entirely of white Makrana marble, featuring a large central dome (73 meters high) surrounded by four smaller domes.</li>
+                <li><strong>The Four Minarets:</strong> Four towering minarets (40 meters high) stand at each corner, slightly tilted outward for stability.</li>
+                <li><strong>The Charbagh Garden:</strong> A 400x400-meter Persian-style garden symbolizing Paradise, divided into four parts.</li>
+                <li><strong>The Reflecting Pool:</strong> A long water canal that reflects the image of the Taj Mahal.</li>
+                <li><strong>The Gateway (Darwaza-i-Rauza):</strong> A massive red sandstone entrance gate adorned with intricate calligraphy from the Quran.</li>
+                <li><strong>The Mosque & Guest House:</strong> A red sandstone mosque for religious prayers and a guest house for visitors.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Legends & Stories</h2>
+            <ul>
+                <li><strong>The Black Taj Mahal Myth:</strong> Some legends say Shah Jahan planned to build a Black Taj Mahal as his own tomb, but no archaeological evidence supports this.</li>
+                <li><strong>Amputation of Workers:</strong> A popular myth claims Shah Jahan cut off the hands of workers to prevent them from building a similar monument, but there is no historical evidence of this.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Decline & Restoration</h2>
+            <p>During the 18th and 19th centuries, the Taj Mahal suffered neglect and damage due to invasions and British rule. Restoration efforts were initiated by the British viceroy Lord Curzon in the early 1900s.</p>
+        </section>
+        <section>
+            <h2> Modern Importance</h2>
+            <p>Declared a UNESCO World Heritage Site in 1983 and recognized as one of the New Seven Wonders of the World in 2007, the Taj Mahal attracts over 7-8 million tourists annually.</p>
+        </section>
+        <section>
+            <h2> Interesting Facts</h2>
+            <ul>
+                <li>The color of the Taj Mahal changes depending on the time of day.</li>
+                <li>The minarets are built with an optical illusion – they appear straight but lean slightly outward.</li>
+                <li>The calligraphy on the entrance appears the same size from top to bottom due to perspective adjustments.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Conclusion</h2>
+            <p>The Taj Mahal is not just a tomb but a symbol of love, devotion, and architectural excellence. It remains one of the greatest wonders of the world and a cultural treasure of India.</p>
+        </section>
+        <section class="image-container">
+            <h2> Images of Taj Mahal</h2>
+            <img src="https://th-thumbnailer.cdn-si-edu.com/bowutuUL8lQd4ymvjhZnGYKnzPY=/fit-in/1200x0/filters:focal(1471x1061:1472x1062)/https%3A%2F%2Ftf-cmsv2-smithsonianmag-media.s3.amazonaws.com%2Ffiler%2Fb6%2F30%2Fb630b48b-7344-4661-9264-186b70531bdc%2Fistock-478831658.jpg" alt="Taj Mahal">
+        </section>
+        <section class="three-d-view">
+            <h2> 3D View of Taj Mahal</h2>
+            <p>Explore a 3D model of the Taj Mahal to appreciate its architectural beauty and layout.</p>
+            <iframe title="Taj Mahal 3D model" class="c-viewer__iframe" src="https://sketchfab.com/models/33149233cefd492b9abdd50fe5a8c921/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jatin Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>

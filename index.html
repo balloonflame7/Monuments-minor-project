@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monuments of India</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: rgb(249, 249, 249);
+            color: #333;
+        }
+
+        header {
+            background: url('https://media.istockphoto.com/id/1131877134/photo/travel-illustration-worlds-famous-landmarks-and-tourist-destinations-elements-in-colorful.jpg?s=612x612&w=0&k=20&c=5re_53AkB99-KSBR9a-8g2BvyHHRx_LAY04LHpMzQ10=') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .links {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .links h2 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #4CAF50;
+        }
+
+        .links ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .links li {
+            margin: 10px 0;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 15px;
+            border-radius: 5px;
+            background: #4CAF50;
+            transition: background 0.3s, transform 0.3s;
+            display: block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .links a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(0);
+            transition: transform 0.3s;
+            z-index: 0;
+        }
+
+        .links a:hover {
+            background: #45a049;
+            transform: translateY(-3px);
+        }
+
+        .links a:hover::before {
+            transform: scale(1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            .links h2 {
+                font-size: 2rem;
+            }
+
+            .links a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Monuments of India</h1>
+        <p>Explore the rich heritage and architectural marvels of India.</p>
+    </header>
+
+    <main>
+        <section class="links">
+            <h2>Explore the Monuments</h2>
+            <ul>
+                <li><a href="khajuraho-temple.html">Khajuraho Temples</a></li>
+                <li><a href="sanchi-stupa.html">Sanchi Stupa</a></li>
+                <li><a href="Red-fort.html">Red Fort</a></li>
+                <li><a href="mandu.html">Mandu</a></li>
+                <li><a href="taj-mahal.html">Taj mahal</a></li>
+                <li><a href="india-gate.html">India Gate</a></li>
+                <li><a href="Konark-sun-temple.html">Konark sun temple</a></li>
+                <li><a href="Ellora.html">Ellora Caves</a></li>
+                <li><a href="charminar.html">Charminar</a></li>
+                <li><a href="rammandir.html">Ram Mandir </a></li>
+                <li><a href="kutubminar.html">kutub minar</a></li>
+                <li><a href="Stofunity.html">Statue of unity</a></li>
+                <li><a href="sansadbhavan.html">Parliament house</a></li>
+                <li><a href="monument14.html">Kedarnath temple</a></li>
+                <li><a href="adiyogi.html">Adiyogi</a></li>
+               
+            </ul>
+        </section>
+        <section>
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jatin Sharma. All rights reserved.</p>
+    </footer>
+
+  
+</body>
+</html>

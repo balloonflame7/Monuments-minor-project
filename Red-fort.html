@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Fort (Lal Qila) – The Pride of Delhi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: url('https://media.istockphoto.com/id/1131877134/photo/travel-illustration-worlds-famous-landmarks-and-tourist-destinations-elements-in-colorful.jpg?s=612x612&w=0&k=20&c=5re_53AkB99-KSBR9a-8g2BvyHHRx_LAY04LHpMzQ10=') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav ul li span {
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li span:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 80px 20px 20px; 
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #45a049;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .three-d-view {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        model-viewer {
+            width: 100%;
+            height: 500px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Red Fort (Lal Qila) – The Pride of Delhi</h1>
+        <p>Discover the grandeur and historical significance of the Red Fort.</p>
+    </header>
+    <main>
+        <section>
+            <h2> History of Red Fort</h2>
+            <p>Commissioned by Shah Jahan in 1638 when he shifted his capital from Agra to Delhi, the Red Fort was designed by Ustad Ahmad Lahori, the same architect of the Taj Mahal. Constructed between 1638-1648, it served as the political and cultural center of the Mughal Empire. After the 1857 Revolt, the British captured it, and it remained under British rule until India's independence in 1947.</p>
+        </section>
+        <section>
+            <h2> Architecture of Red Fort</h2>
+            <p>Built using red sandstone, the fort showcases a blend of Persian, Timurid, and Indian architectural styles. Enclosed by massive 75-foot-high walls stretching over 2.4 km, it houses royal palaces, gardens, mosques, and audience halls.</p>
+        </section>
+        <section>
+            <h2> Key Attractions Inside Red Fort</h2>
+            <ul>
+                <li><strong>Lahori Gate</strong> - The main entrance of the fort, facing Chandni Chowk.</li>
+                <li><strong>Diwan-i-Aam (Hall of Public Audience)</strong> - A large hall where the emperor addressed the public.</li>
+                <li><strong>Diwan-i-Khas (Hall of Private Audience)</strong> - A luxurious hall where the emperor met important guests.</li>
+                <li><strong>Rang Mahal (Palace of Colors)</strong> - Used by the Mughal queens, decorated with mirrors and water channels.</li>
+                <li><strong>Moti Masjid (Pearl Mosque)</strong> - A small white marble mosque built by Aurangzeb.</li>
+                <li><strong>Mumtaz Mahal and Khas Mahal</strong> - Part of the royal quarters and the emperor’s private residence.</li>
+                <li><strong>Hayat Bakhsh Bagh (Life-Giving Garden)</strong> - A large Mughal-style garden featuring fountains and pavilions.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Best Time to Visit Red Fort</h2>
+            <p>October to March offers pleasant weather for exploring the fort. Independence Day (August 15th) is a special occasion when the fort is the center of national celebrations.</p>
+        </section>
+        <section>
+            <h2> How to Reach Red Fort</h2>
+            <p>By Metro: Nearest Metro Station is Chandni Chowk (Yellow Line), within walking distance.</p>
+            <p>By Road: Well-connected by buses, taxis, and auto-rickshaws.</p>
+            <p>By Train: Nearest railway stations are Old Delhi Railway Station (1.5 km) and New Delhi Railway Station (4 km).</p>
+        </section>
+        <section>
+            <h2> Why Visit Red Fort</h2>
+            <ul>
+                <li>Rich History – A symbol of Mughal power and Indian independence.</li>
+                <li>Architectural Beauty – A masterpiece of Mughal craftsmanship.</li>
+                <li>Cultural Significance – Hosts the Prime Minister’s speech on Independence Day.</li>
+                <li>Light and Sound Show – A must-see event in the evening, showcasing the fort’s history.</li>
+            </ul>
+        </section>
+        <section class="image-container">
+            <h2>📸 Images of Red Fort</h2>
+            <img src="https://thumbs.dreamstime.com/b/red-fort-delhi-india-red-fort-historic-fort-city-delhi-india-was-main-residence-emperors-138092261.jpg" alt="Red Fort">
+        </section>
+        <section class="three-d-view">
+            <h2>🌐 3D View of Red Fort</h2>
+            <p>Explore a 3D model of the Red Fort to appreciate its architectural beauty and layout.</p>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jatin Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>

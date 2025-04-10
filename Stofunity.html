@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statue of Unity – World’s Tallest Statue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: url('https://media.istockphoto.com/id/1131877134/photo/travel-illustration-worlds-famous-landmarks-and-tourist-destinations-elements-in-colorful.jpg?s=612x612&w=0&k=20&c=5re_53AkB99-KSBR9a-8g2BvyHHRx_LAY04LHpMzQ10=') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav ul li span {
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li span:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 80px 20px 20px; 
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #45a049;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .summary-table th, .summary-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .summary-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Statue of Unity – World’s Tallest Statue</h1>
+        <p>A tribute to Sardar Vallabhbhai Patel, the Iron Man of India.</p>
+    </header>
+    <main>
+        <section>
+            <h2> Quick Overview</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Feature</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <td> Name</td>
+                    <td>Statue of Unity</td>
+                </tr>
+                <tr>
+                    <td> Honours</td>
+                    <td>Sardar Vallabhbhai Patel</td>
+                </tr>
+                <tr>
+                    <td> Location</td>
+                    <td>Ekta Nagar, Kevadia, Gujarat, India</td>
+                </tr>
+                <tr>
+                    <td> Height</td>
+                    <td>182 meters (597 feet)</td>
+                </tr>
+                <tr>
+                    <td> Inaugurated On</td>
+                    <td>31st October 2018</td>
+                </tr>
+                <tr>
+                    <td> Material</td>
+                    <td>Bronze cladding, steel, and concrete</td>
+                </tr>
+                <tr>
+                    <td> Designer</td>
+                    <td>Ram V. Sutar (Padma Bhushan awardee)</td>
+                </tr>
+                <tr>
+                    <td> Built By</td>
+                    <td>Larsen & Toubro (L&T)</td>
+                </tr>
+                <tr>
+                    <td>UNESCO Status</td>
+                    <td>Not yet a World Heritage site</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>👤 Who Was Sardar Vallabhbhai Patel?</h2>
+            <p>Sardar Vallabhbhai Patel, known as the Iron Man of India, was the first Deputy Prime Minister and Home Minister of independent India. He played a crucial role in the integration of over 560 princely states into the Indian Union and believed in national unity, discipline, and strong administration.</p>
+        </section>
+        <section>
+            <h2> Architecture & Engineering</h2>
+            <h3> Height Comparison</h3>
+            <table class="summary-table">
+                <tr>
+                    <th>Statue</th>
+                    <th>Height</th>
+                </tr>
+                <tr>
+                    <td>Statue of Unity</td>
+                    <td>182 m</td>
+                </tr>
+                <tr>
+                    <td>Spring Temple Buddha (China)</td>
+                    <td>128 m</td>
+                </tr>
+                <tr>
+                    <td>Statue of Liberty (USA)</td>
+                    <td>93 m</td>
+                </tr>
+            </table>
+            <p>The Statue of Unity is the tallest statue in the world.</p>
+            <h3>Design & Structure</h3>
+            <p>The statue depicts Sardar Patel in a standing pose, dressed in traditional Indian attire, facing the Sardar Sarovar Dam on the Narmada River. It is designed to withstand wind resistance up to 180 km/h and earthquake resistance up to 6.5 on the Richter scale. A viewing gallery at 153 meters accommodates 200 people and offers a panoramic view.</h3>
+            <h3> Materials Used</h3>
+            <ul>
+                <li>1,700 tonnes of bronze</li>
+                <li>18,500 tonnes of reinforced steel</li>
+                <li>210,000 cubic meters of cement concrete</li>
+                <li>Iron contribution campaign: farmers across India donated iron tools for the base.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Tourist Attractions Nearby</h2>
+            <ul>
+                <li> Valley of Flowers</li>
+                <li> Jungle Safari Park</li>
+                <li> Zarvani Eco-tourism and Waterfall</li>
+                <li> Glow Garden</li>
+                <li> Children’s Nutrition Park</li>
+                <li> Laser Light & Sound Show on statue surface</li>
+                <li> Ekta Cruise and Helicopter Ride</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Visitor Information</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Feature</th>
+                    <th>Info</th>
+                </tr>
+                <tr>
+                    <td>Timing</td>
+                    <td>8:00 AM to 6:00 PM (Closed on Mondays)</td>
+                </tr>
+                <tr>
+                    <td>Entry Fee</td>
+                    <td>₹150 (general), ₹380 (with gallery access)</td>
+                </tr>
+                <tr>
+                    <td>Kids under 3</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Booking Site</td>
+                    <td><a href="https://statueofunity.in" target="_blank">statueofunity.in</a></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2> Construction Timeline</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Foundation Stone</td>
+                    <td>31st October 2013</td>
+                </tr>
+                <tr>
+                    <td>Completion</td>
+                    <td>October 2018</td>
+                </tr>
+                <tr>
+                    <td>Inauguration</td>
+                    <td>31st October 2018</td>
+                </tr>
+                <tr>
+                    <td>Total Cost</td>
+                    <td>₹2,989 crore (approx.)</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2> Fun Facts</h2>
+            <ul>
+                <li>The statue's height (182 m) matches the 182 seats in the Gujarat Legislative Assembly.</li>
+                <li>Built in just 33 months, a record for such a large structure.</li>
+                <li>Can be seen from 7 kilometers away.</li>
+                <li>The statue changes color with sunlight and weather due to the bronze alloy.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Summary Table</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Topic</th>
+                    <th>Info</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>Statue of Unity</td>
+                </tr>
+                <tr>
+                    <td>Honours</td>
+                    <td>Sardar Vallabhbhai Patel</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>182 meters</td>
+                </tr>
+                <tr>
+                    <td>Designer</td>
+                    <td>Ram V. Sutar</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Ekta Nagar, Kevadia, Gujarat</td>
+                </tr>
+                <tr>
+                    <td>Inauguration Date</td>
+                    <td>31st October 2018</td>
+                </tr>
+                <tr>
+                    <td>Construction Cost</td>
+                    <td>₹2,989 crores</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Tallest statue in the world</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-KSM-f2Y6w2RXpo3IPuszCKSoImXvsmad6w&s" alt="Statue of unity" />
+        </section>
+        <section>
+            <iframe title="Statue Of Unity ( SARDAR PATEL ) 3D model " class="c-viewer__iframe" src="https://sketchfab.com/models/24603cc787cc4d418b00f05cf80e89d6/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jatin Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>

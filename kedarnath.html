@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedarnath Temple – The Abode of Lord Shiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: url('https://media.istockphoto.com/id/1131877134/photo/travel-illustration-worlds-famous-landmarks-and-tourist-destinations-elements-in-colorful.jpg?s=612x612&w=0&k=20&c=5re_53AkB99-KSBR9a-8g2BvyHHRx_LAY04LHpMzQ10=') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav ul li span {
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li span:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 80px 20px 20px; 
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #45a049;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .summary-table th, .summary-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .summary-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .summary-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .quote {
+            font-style: italic;
+            margin: 20px 0;
+            padding: 10px;
+            background: #e7f3fe;
+            border-left: 5px solid #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kedarnath Temple – The Abode of Lord Shiva</h1>
+        <p>A sacred pilgrimage site nestled in the Himalayas.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><span>Home</span></li>
+            <li><span>About</span></li>
+            <li><span>Gallery</span></li>
+            <li><span>Contact</span></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2> Basic Information</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Feature</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Kedarnath, Uttarakhand, India (at 3,583 m)</td>
+                </tr>
+                <tr>
+                    <td>Deity Worshipped</td>
+                    <td>Lord Shiva (Kedareshwar form)</td>
+                </tr>
+                <tr>
+                    <td>Built By</td>
+                    <td>Believed to be built by Pandavas, later restored by Adi Shankaracharya</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>Over 1,200 years old (ancient origin)</td>
+                </tr>
+                <tr>
+                    <td>Architecture Style</td>
+                    <td>North Indian Himalayan stone architecture</td>
+                </tr>
+                <tr>
+                    <td>Material</td>
+                    <td>Massive grey stone slabs</td>
+                </tr>
+                <tr>
+                    <td>Pilgrimage Circuit</td>
+                    <td>One of the 12 Jyotirlingas and Char Dham of Uttarakhand</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2> Spiritual & Mythological Significance</h2>
+            <p>According to legend, after the Kurukshetra war, the Pandavas sought forgiveness from Lord Shiva. Shiva eluded them and took refuge in the Himalayas as a bull (Nandi form). When found, he dived into the earth, and parts of his body appeared in different locations:</p>
+            <ul>
+                <li>Kedarnath (hump)</li>
+                <li>Tungnath (arms)</li>
+                <li>Rudranath (face)</li>
+                <li>Madhyamaheshwar (navel)</li>
+                <li>Kalpeshwar (hair)</li>
+            </ul>
+            <p>Together, these are known as the Panch Kedar.</p>
+        </section>
+        <section>
+            <h2> Architecture of Kedarnath Temple</h2>
+            <h3>Feature</h3>
+            <ul>
+                <li><strong>Style:</strong> Stone slab-based, ancient North Indian Nagara architecture</li>
+                <li><strong>Material:</strong> Constructed using interlocking stones, no mortar used</li>
+                <li><strong>Climate Resistance:</strong> Stands strong even in heavy snowfall and earthquakes</li>
+                <li><strong>Special Design:</strong> Structure absorbs minor shocks—helpful in earthquake zones</li>
+                <li><strong>Interior:</strong> Contains a conical rock structure (lingam) as the main deity</li>
+                <li><strong>Rituals:</strong> Morning: Maha Abhishek</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Important Events</h2>
+            <ul>
+                <li>Restored by Adi Shankaracharya in the 8th century to revive Sanatan Dharma.</li>
+                <li>2013 Flash Floods: Massive destruction, but the temple miraculously survived.</li>
+                <li>A huge rock (Bhim Shila) behind the temple protected it from the flood waters.</li>
+                <li>Post-2013: Major reconstruction and safety enhancements by the Indian government.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> How to Reach Kedarnath</h2>
+            <ul>
+                <li><strong>Nearest town:</strong> Gaurikund</li>
+                <li><strong>Trek:</strong> 16 km uphill trek from Gaurikund to Kedarnath Temple</li>
+                <li><strong>Helicopter service:</strong> Available from places like Phata and Guptkashi</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Visual Highlights</h2>
+            <ul>
+                <li>Snow-covered temple with Himalayan backdrop</li>
+                <li>Bhim Shila stone behind the temple</li>
+                <li>Pilgrims and sadhus on Char Dham Yatra</li>
+                <li>Night-time aarti with lamps and chants</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Key Takeaways</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Info</th>
+                </tr>
+                <tr>
+                    <td>Elevation</td>
+                    <td>3,583 meters (11,755 ft)</td>
+                </tr>
+                <tr>
+                    <td>Climate</td>
+                    <td>Sub-zero in winter, open April–Nov</td>
+                </tr>
+                <tr>
+                    <td>Closed Months</td>
+                    <td>Temple shuts during winter (Nov–Apr) due to snow</td>
+                </tr>
+                <tr>
+                    <td>Moved Deity</td>
+                    <td>In winter, the idol is moved to Ukhimath</td>
+                </tr>
+                <tr>
+                    <td>Importance</td>
+                    <td>1 of 12 Jyotirlingas and 1 of 4 Char Dhams</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2> Quotes</h2>
+            <div class="quote">
+                “Har Har Mahadev – Kedarnath is not just a temple, it is a spiritual experience surrounded by divine nature.”
+            </div>
+        </section>
+        <section>
+            <h2>3D Model of Kedarnath Temple</h2>
+            <p>Explore the 3D model of Kedarnath Temple:</p>
+            <iframe title="Kedarnath Temple 3D model " class="c-viewer__iframe" src="https://sketchfab.com/models/45d741008d9741bd9a71368916a00d3c/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe> 
+        </section>
+        <section>
+            <h2>Image Gallery</h2>
+            <div class="image-gallery">
+                <img src="https://w0.peakpx.com/wallpaper/988/410/HD-wallpaper-kedarnath-bhole-baba-bholenath-shivji-temple-thumbnail.jpg" alt="Kedarnath Temple">
+            
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jatin Sharma . All rights reserved.</p>
+    </footer>
+</body>
+</html>

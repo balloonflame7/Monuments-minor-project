@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charminar – The Icon of Hyderabad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: url('https://media.istockphoto.com/id/1131877134/photo/travel-illustration-worlds-famous-landmarks-and-tourist-destinations-elements-in-colorful.jpg?s=612x612&w=0&k=20&c=5re_53AkB99-KSBR9a-8g2BvyHHRx_LAY04LHpMzQ10=') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav ul li span {
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li span:hover {
+            color: #4CAF50;
+        }
+
+        main {
+            padding: 80px 20px 20px; 
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #45a049;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .summary-table th, .summary-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .summary-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Charminar – The Icon of Hyderabad</h1>
+        <p>A symbol of unity and resilience in the heart of Hyderabad.</p>
+    </header>
+    <main>
+        <section>
+            <h2> Overview</h2>
+            <ul>
+                <li><strong>Location:</strong> Hyderabad, Telangana, India</li>
+                <li><strong>Built In:</strong> 1591 CE</li>
+                <li><strong>Built By:</strong> Sultan Muhammad Quli Qutb Shah (5th ruler of the Qutb Shahi Dynasty)</li>
+                <li><strong>Architectural Style:</strong> Indo-Islamic architecture with Persian influences</li>
+                <li><strong>Material:</strong> Granite, limestone, mortar, and pulverized marble</li>
+                <li><strong>Height:</strong> Approximately 56 meters (184 feet)</li>
+                <li><strong>Name Meaning:</strong> "Char" = four, "Minar" = towers/minarets → Charminar = Four Towers</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Historical Background</h2>
+            <p>The Charminar was built in 1591 by Sultan Muhammad Quli Qutb Shah, the founder of Hyderabad. It marked the end of a deadly plague in the region. The Sultan is believed to have prayed for the end of the epidemic and vowed to build a mosque if his prayers were answered. Charminar was constructed at the center of the new city (Hyderabad), symbolizing the city’s founding moment.</p>
+        </section>
+        <section>
+            <h2> Architectural Features</h2>
+            <h3>🔸 Structure</h3>
+            <p>Square-shaped base measuring 20 meters on each side. Each corner has a towering minaret, 56 meters high. Each minaret has four storeys with carved balconies and a spiral staircase of 149 steps.</p>
+            <h3>🔸 Main Arches</h3>
+            <p>The structure has four grand arches, each facing a cardinal direction. These arches open into four major roads of the city, forming a crossroad.</p>
+            <h3>🔸 Domes and Minarets</h3>
+            <p>The minarets have bulbous domes, adding to the grandeur. The top floor of Charminar houses a mosque – one of the oldest functioning mosques in Hyderabad.</p>
+            <h3>🔸 Decorative Elements</h3>
+            <p>Beautiful stucco work, floral motifs, calligraphy, and intricate carvings. Persian architectural styles influence the ornamentation.</p>
+        </section>
+        <section>
+            <h2> The Mosque</h2>
+            <p>Located on the top floor, accessed by the minarets’ spiral stairs. It can accommodate about 45 people at a time. It has arched openings, mihrab (prayer niche), and minbar (pulpit).</p>
+        </section>
+        <section>
+            <h2> Religious & Cultural Significance</h2>
+            <p>The Charminar stands not just as a mosque but also as a symbol of unity and resilience. It's considered a symbol of Hyderabad’s heritage. The surrounding area (Laad Bazaar) is known for bangles, pearls, and traditional markets, giving the place a vibrant cultural identity.</p>
+        </section>
+        <section>
+            <h2> Interesting Facts</h2>
+            <ul>
+                <li>A hidden underground tunnel is believed to connect the Charminar to the Golconda Fort (for emergency escape), though it hasn't been found.</li>
+                <li>The four minarets are said to represent the four Khalifas of Islam.</li>
+                <li>Charminar has survived over 400 years of history, including floods, wars, and urban expansion.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Tourism and Location</h2>
+            <p> Located in Old Hyderabad, at the center of bustling markets.</p>
+            <p><strong>Attractions nearby:</strong></p>
+            <ul>
+                <li>Mecca Masjid</li>
+                <li>Chowmahalla Palace</li>
+                <li>Laad Bazaar</li>
+                <li>Salar Jung Museum</li>
+            </ul>
+            <p> <strong>Best Time to Visit:</strong> October to March – pleasant weather for exploring.</p>
+            <p> <strong>Visiting hours:</strong> 9:30 AM – 5:30 PM</p>
+            <p> <strong>Entry fee:</strong> ₹20 (Indians), ₹250 (foreigners)</p>
+        </section>
+        <section>
+            <h2> Legacy</h2>
+            <p>Charminar is an enduring symbol of Hyderabad's culture, architecture, and pluralism. It has been featured in movies, stamps, coins, and the logo of Telangana tourism. It has also been declared a protected monument by the Archaeological Survey of India (ASI).</p>
+        </section>
+        <section>
+            <h2> Summary Table</h2>
+            <table class="summary-table">
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Year Built</td>
+                    <td>1591 CE</td>
+                </tr>
+                <tr>
+                    <td>Builder</td>
+                    <td>Sultan Muhammad Quli Qutb Shah</td>
+                </tr>
+                <tr>
+                    <td>Style</td>
+                    <td>Indo-Islamic, Persian</td>
+                </tr>
+                <tr>
+                    <td>Material</td>
+                    <td>Granite, limestone, mortar</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>56 meters (approx.)</td>
+                </tr>
+                <tr>
+                    <td>Minarets</td>
+                    <td>4 minarets, 4 storeys each</td>
+                </tr>
+                <tr>
+                    <td>Religious Significance</td>
+                    <td>Functioning mosque on the upper floor</td>
+                </tr>
+                <tr>
+                    <td>Cultural Symbol</td>
+                    <td>Symbol of unity and heritage</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <img src="https://images.unsplash.com/photo-1696941515998-d83f24967aca?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcm1pbmFyfGVufDB8fDB8fHww" alt="Charminar"  height="500" width="500"/>
+        </section>
+        <section>
+            <iframe title="Charminar 3D model " class="c-viewer__iframe" src="https://sketchfab.com/models/bb880d064036496ca14ebac08a243af0/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jatin Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
